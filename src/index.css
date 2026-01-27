@@ -2,6 +2,24 @@
 
 @import 'tailwindcss';
 
+:root {
+  --black: #121212;
+  --primary: #02485c;
+  --text-primary: #043040;
+  --text-secondary: #00000099;
+}
+
 * {
   font-family: Poppins, sans-serif;
+}
+
+@theme {
+  --color-black: var(--black);
+  --color-primary: var(--primary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+}
+
+.border {
+  border: 1px solid black;
 }
